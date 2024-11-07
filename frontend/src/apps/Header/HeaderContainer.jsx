@@ -38,7 +38,7 @@ export default function HeaderContent() {
         </Avatar>
         <div className="profileDropdownInfo">
           <p>
-            {currentAdmin?.name} {currentAdmin?.surname}
+            {currentAdmin?.surname}
           </p>
           <p>{currentAdmin?.email}</p>
         </div>
@@ -123,7 +123,6 @@ export default function HeaderContent() {
 
       {/* <AppsButton /> */}
 
-      <UpgradeButton />
     </Header>
   );
 }
